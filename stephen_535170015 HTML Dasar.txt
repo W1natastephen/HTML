@@ -1,0 +1,103 @@
+<html>
+     <head>
+          <title>"halaman sign"</title>
+          <form>
+                Nama Lengkap
+                <label for="nl">nama lengkap:
+                </label>
+                <br>
+                <input type="text" name="nl">
+                <br>
+                Email
+                <label for="email">email:
+                </label>
+                <br>
+                <input type="text" name="email">
+                <br>
+                Password
+                <label for="pw">password:
+                </label>
+                <br>
+                <input type="text" name="pw">
+                <br>
+                Phone Number
+                <label for="pn">phone number:
+                </label>
+                <br>
+                <input type="text" name="pn">
+                <br>
+                Jenis Kelamin
+                <input type="radio" id="laki-laki" name="jk" value="pria">
+                <label for="laki-laki">pria
+                </label>
+                <br>
+                <input type="radio" id="perempuan" name="jk" value="wanita">
+                <label for="perempuan">wanita
+                </label>
+                <br>
+                Alamat
+                <label for="address">address:
+                </label>
+                <br>
+                <input type="text" name="address">
+                <br>
+                image
+                <img src="pic_trulli.jpg" alt="3x4pxt">
+                Provinsi
+                <input type="checkbox" name="vehicle1" value="Jakarta">
+                <label for="vehicle1"> Jakarta
+                </label>
+                <br>
+                <form>
+                     <input type="radio" id="jakarta"name="ibukota" value="Dki Jakarta">
+                     <label for="jakarta">Dki Jakarta
+                     </label>
+                     <br>
+                </form>
+                        <form>
+                             <label for="Jiwa">Jiwa:
+                             </label>
+                             <br>
+                             <input type="text" name="Jiwa">
+                             <br>
+                </form>
+                <input type="checkbox" name="vehicle2" value="Bandung">
+                <label for="vehicle2"> Bandung
+                </label>
+                <br>
+                <form>
+                     <input type="radio" id="bandung" name="ibukota" value="Bandung">
+                     <label for="bandung">Bandung
+                     </label>
+                     <br>
+                </form>
+                         <form>
+                             <label for="Jiwa">Jiwa:
+                             </label>
+                             <br>
+                             <input type="text" name="Jiwa">
+                             <br>
+                </form>
+                <input type="checkbox" name="vehicle3" value="Bogor">
+                <label for="vehicle3"> Bogor
+                </label>
+                <br>
+                <form>
+                     <input type="radio" id="bogor" name="ibukota" value="Bogor">
+                     <label for="bogor">Bogor
+                     </label>
+                     <br>
+                </form>
+                         <form>
+                             <label for="Jiwa">Jiwa:
+                             </label>
+                             <br>
+                             <input type="text" name="Jiwa">
+                             <br>
+                </form>
+                <form action="/action_page.php">
+                            <input type="submit" value="Submit">
+                </form>
+            </form>
+      </head>
+</html>
